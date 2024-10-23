@@ -24,6 +24,7 @@ public class App {
                             gameSet(scanner, baseballGame);
                             gameStart(baseballGame, scanner);
                             break;
+
                         case START:
                             gameStart(baseballGame,scanner);
                             break;
@@ -71,7 +72,7 @@ public class App {
         baseballGame.initGame();
 
         //확인을 위해 정답 숫자 출력해보기
-        baseballGame.showResult();
+//        baseballGame.showResult();
 
         System.out.println();
         System.out.println(baseballGame.getDigit() + "개의 숫자를 입력하세요!!");
