@@ -2,7 +2,6 @@ package sparta.baseball.level2;
 
 import java.util.HashSet;
 import java.util.InputMismatchException;
-import java.util.LinkedHashSet;
 import java.util.Scanner;
 /*
     App 클래스
